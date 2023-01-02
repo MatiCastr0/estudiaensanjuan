@@ -1,0 +1,23 @@
+[
+        {
+            "nombre": "Licenciatura en Ciencias de la Computación",
+            "universidad": "Universidad Nacional de San Juan",
+            "enlace": "https://www.unsj.edu.ar/carreras/ciencias-de-la-computacion",
+            "imagen": "https://definicion.de/wp-content/uploads/2008/06/computacion-1.jpg",
+            "descripcion": "La Licenciatura en Ciencias de la Computación forma profesionales capaces de desarrollar aplicaciones y soluciones informáticas utilizando tecnologías de vanguardia."
+          },
+          {
+            "nombre": "Licenciatura en Medicina",
+            "universidad": "Universidad Católica de Cuyo",
+            "enlace": "https://www.unsj.edu.ar/carreras/medicina",
+            "imagen": "https://observatorio.tec.mx/wp-content/uploads/2020/06/TheRoleofaMedicalandHealthSciencesStudentDuringaPandemic.jpg",
+            "descripcion": "La Licenciatura en Medicina forma profesionales capaces de diagnosticar y tratar enfermedades utilizando conocimientos científicos y técnicos avanzados."
+        },
+    {
+      "nombre": "Licenciatura en Geología",
+      "universidad": "Universidad Nacional de San Juan",
+      "enlace": "https://www.unsj.edu.ar/carreras/geologia",
+      "imagen": "https://www.ceupe.com/images/easyblog_images/168/b2ap3_thumbnail_objetos-de-estudio-de-la-geologa.jpg"
+    }
+  ]
+  
