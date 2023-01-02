@@ -32,7 +32,7 @@ function mostrarResultados(resultados) {
     <div class="card-body">
         <h5 class="card-title">${carrera.nombre}</h5>
         <p class="card-text">${carrera.descripcion}</p>
-        <p class="card-text"><small class="text-muted">${carrera.universidad}</small></p>
+        <p class="card-text"><small class="text-muted"><img src="${carrera.logo}" alt="${carrera.universidad}" style="height: 1em;"> ${carrera.universidad}</small></p>
         <a href="${carrera.enlace}" class="btn btn-primary" target="_blank">Ver más</a>
       </div>
     </div>
@@ -53,8 +53,7 @@ fetch("carreras.json")
             <div class="card-body">
                 <h5 class="card-title">${carrera.nombre}</h5>
                 <p class="card-text">${carrera.descripcion}</p>
-                <p class="card-text"><small class="text-muted">${carrera.universidad}</small></p>
-                <a href="${carrera.enlace}" class="btn btn-primary" target="_blank">Ver más</a>
+                <p class="card-text"><small class="text-muted"><img src="${carrera.logo}" alt="${carrera.universidad}" style="height: 1em;"> ${carrera.universidad}</small></p>                <a href="${carrera.enlace}" class="btn btn-primary" target="_blank">Ver más</a>
               </div>
             </div>
 
