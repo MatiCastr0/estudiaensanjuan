@@ -9,28 +9,58 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <title>Carreras Universitarias de San Juan</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container-fluid p-5 bg-primary text-white text-center">
-      <h1>Carreras Universitarias de San Juan</h1>
-    </div>
-    <div class="container mt-5 ">
-      <div class="row">
-        <div class="col-md-4">
-          <form id="formulario">
-            <div class="form-group">
-              <label for="search">Busca tu carrera universitaria:</label>
-              <input type="text" class="form-control" id="busqueda" />
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">estudiaensanjuan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.unsj.edu.ar/"><img src="https://www.universidades.com.ar/logos/original/logo-universidad-nacional-de-san-juan.png" style="height: 3em;" alt="Universidad Nacional de San Juan"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://uccuyosj.edu.ar/"><img src="https://www.universidades.com.ar/logos/original/logo-universidad-catolica-de-cuyo.webp" alt="Universidad 2" style="height: 3em;" ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.ucongreso.edu.ar/"><img src="https://www.universidades.com.ar/logos/original/logo-universidad-de-congreso.png" alt="Universidad 3" style="height: 3em;" > </a>
+            <li class="nav-item">
+              <a class="nav-link" href="https://21.edu.ar/"><img src="https://i.pinimg.com/564x/f6/94/56/f69456f4593b89590386c81bb8242763.jpg" alt="Universidad 4" style="height: 3em;" ></a>
+            </li>
+            <li class="nav-item ml-5 mt-3">
+              <a type="button" class="btn btn-outline-success btn-scroll">
+                Buscar
+              </a>
+            </li>
+            </ul>
             </div>
-            <button type="submit" class="btn btn-primary mb-5">Buscar</button>
-          </form>
-        </div>
-      </div>
+            </nav>
+      <section id="portada">
+          <!-- Contenido de la sección -->
+      </section>
+        
+     
+      
+      <div class="container mt-5 ">
+        <form id="formulario">
+          <div class="form-group">
+            <label for="search">Busca tu carrera universitaria:</label>
+            <input type="text" class="form-control" id="busqueda">
+          </div>
+          <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+        <div class="row">
       <div class="card-columns" id="resultados"></div>
       <div class="card-columns" id="carreras"></div>
-
-
     </div>
+   
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

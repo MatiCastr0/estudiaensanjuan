@@ -1,3 +1,9 @@
+document.querySelector('.btn-scroll').addEventListener('click', () => {
+  const form = document.getElementById('formulario');
+  form.scrollIntoView({ behavior: 'smooth', duration: 10000});
+});
+
+
 // Cargamos el archivo JSON con la información de las carreras universitarias
 fetch("carreras.json")
   .then((response) => response.json())
@@ -61,3 +67,5 @@ fetch("carreras.json")
       document.getElementById("carreras").appendChild(elemento);
     });
   });
+
+
